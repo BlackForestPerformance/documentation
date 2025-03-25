@@ -1,0 +1,37 @@
+title: BFP IT Docs
+description: Planing, Documentation and User Guides for the IT Infrastructure of Black Forest Performance
+theme: just-the-docs
+
+color_scheme: dark
+
+url: https://bfp-racing.de/documentation/
+
+aux_links:
+  This Repository: https://github.com/BlackForestPerformance/documentation
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.4.1"
+
+callouts:
+  highlight:
+    color: yellow
+  note:
+    title: Note
+    color: purple
+  info:
+    title: Note
+    color: blue
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  warning:
+    title: Warning
+    color: red
+  quote:
+    title: Quote
+    color: grey-dk
