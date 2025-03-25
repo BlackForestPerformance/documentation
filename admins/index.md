@@ -8,9 +8,9 @@ nav_order: 2
 {: .no_toc}
 
 <span class="fs-6">
-[Services in use](/admins/services.html){: .btn }
+[Services in use]{: .btn }
 </span>
 
 ----
 
-
+[Services in use]: /documentation/admins/services.html

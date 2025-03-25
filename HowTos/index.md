@@ -24,11 +24,11 @@ nav_order: 2
 
 ----
 
-[Add labels to Emails]: /HowTos/services/E-Mails.html#add-labels-to-emails
+[Add labels to Emails]: /documentation/HowTos/E-Mails.html#add-labels-to-emails
 
-[Add users]: /HowTos/vaultwarden.html#add-users
-[Change what passwords a user can see and edit]: /HowTos/vaultwarden.html#change-what-passwords-a-user-can-see-and-edit
-[Deactivate / Delete an account]: /HowTos/vaultwarden.html#deactivate--delete-an-account
+[Add users]: /documentation/HowTos/vaultwarden.html#add-users
+[Change what passwords a user can see and edit]: /documentation/HowTos/vaultwarden.html#change-what-passwords-a-user-can-see-and-edit
+[Deactivate / Delete an account]: /documentation/HowTos/vaultwarden.html#deactivate--delete-an-account
 
-[Add new Mailbox]: /HowTos/services/E-Mails.html#add-new-mailbox
-[Add new E-Mail alias]: /HowTos/services/E-Mails.html#add-new-e-mail-alias
+[Add new Mailbox]: /documentation/HowTos/E-Mails.html#add-new-mailbox
+[Add new E-Mail alias]: /documentation/HowTos/E-Mails.html#add-new-e-mail-alias
