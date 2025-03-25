@@ -7,7 +7,8 @@ color_scheme: dark
 url: https://bfp-racing.de/documentation/
 
 aux_links:
-  This Repository: https://github.com/BlackForestPerformance/documentation
+  Vaultwarden: https://password.bfp-racing.de/
+  E-Mail: https://mail.bfp-racing.de/SOGo/
 
 mermaid:
   # Version of mermaid library
