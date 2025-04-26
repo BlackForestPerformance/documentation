@@ -75,6 +75,10 @@ parent: How To
 5. Hit the save Icon.
 6. Navigate Back to the Email view with the Header
 
+## Add the BFP-Racing Signature to your E-Mail
+
+You don't have to do anything. This will be added automatically to all E-Mails.
+
 ----
 [Mailcow admin panel]: https://mail.bfp-racing.de
 [Webmail client]: https://mail.bfp-racing.de/SOGo/

@@ -8,6 +8,7 @@ nav_order: 2
 {:.no_toc}
 
 - [Add labels to Emails]
+- [Add the BFP-Racing E-Mail signature] to your E-Mail
 
 ### Recurring (Semester)
 {:.no_toc}
@@ -25,6 +26,7 @@ nav_order: 2
 ----
 
 [Add labels to Emails]: /documentation/HowTos/E-Mails.html#add-labels-to-emails
+[Add the BFP-Racing E-Mail signature]: /documentation/HowTos/E-Mails.html#add-the-bfp-racing-signature-to-your-e-mail
 
 [Add users]: /documentation/HowTos/vaultwarden.html#add-users
 [Change what passwords a user can see and edit]: /documentation/HowTos/vaultwarden.html#change-what-passwords-a-user-can-see-and-edit

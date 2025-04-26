@@ -15,9 +15,15 @@ Any documentation to all IT related stuff. Like this document.
 This is used a placeholder Website for the Domain [bfp-racing.de]. By the time writing this, it is used to display a "work in progress" text on the page.
 This was done, so the URL can be shared in magazines even when unsure if we would have a public page by the time the magazine is printed.
 
+## [Mail Footer]
+
+This holds the original version of the E-Mail footer.
+
 ---
 
 [Documentation]: https://github.com/BlackForestPerformance/documentation
 [blackforestperformance.github.io]: https://github.com/BlackForestPerformance/BlackForestPerformance.github.io
 [bfp-racing.de]: https://bfp-racing.de
+
+[Mail Footer]: https://github.com/BlackForestPerformance/mail-footer
 
