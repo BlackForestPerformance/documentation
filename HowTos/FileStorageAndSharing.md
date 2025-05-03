@@ -55,9 +55,41 @@ If you already have access to the shared folder, you can see it under "Shares" o
 
 If you don't have access, ask the IT or Marketing Team for access.
 
+#### WebDav
+
+You can use the WebDav protocol to use it directly in your Windows explorer.
+
+To do this, go to the [BwSync&Share] website and log in.
+
+Then go to "File Settings" and "WebDAV."
+![Screenshot](https://i.imgur.com/0lgeRC3.png)
+
+Below your WebDav URL, you can find a link to add an Application password.
+
+Here, add a new password and copy both username AND password.
+![Screenshot](https://i.imgur.com/FLd3y66.png)
+![Screenshot](https://i.imgur.com/0KCTklU.png)
+
+**Windows:**
+
+You can go to "This PC", right click and select "Add a network location."
+![Screenshot](https://i.imgur.com/TKHvLVj.png)
+
+Just follow the process, add your URL, then fill in the username and password you generated earlier.
+
+I don't have a screenshot for this, but it should be simple.
+
+If this doesn't work for any reason, don't try 100 times; they will lock your account for too many failed attempts.
+
+#### Windows, Linux, Mac, Android, iOS Client
+
+There is a client for all platforms available.
+
+You can find them on a [NextCloud page].
 
 ----
 
 [GigaMove]: https://gigamove.rwth-aachen.de/
 [Felix Course]: https://felix.hs-furtwangen.de/url/RepositoryEntry/25429284
 [BwSync&Share]: https://bwsyncandshare.kit.edu/
+[NextCloud page]: https://customerupdates.nextcloud.com/kk1eoZCTo0kI5HpGE3IT/
