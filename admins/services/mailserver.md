@@ -87,6 +87,6 @@ This is the link to [Mailjet], the service we use to send mails through the belw
 [Webmail]: https://mail.bfp-racing.de/SOGo/
 [Rspamd]: https://mail.bfp-racing.de/rspamd/
 
-[Mailfooter Repo]: /documentation/admins/github/#mail-footer
+[Mailfooter Repo]: /admins/github/#mail-footer
 
-[Mailjet]: /documentation/admins/services/#mailjet
+[Mailjet]: /admins/services/#mailjet

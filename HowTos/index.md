@@ -25,12 +25,12 @@ nav_order: 2
 
 ----
 
-[Add labels to Emails]: /documentation/HowTos/E-Mails.html#add-labels-to-emails
-[Add the BFP-Racing E-Mail signature]: /documentation/HowTos/E-Mails.html#add-the-bfp-racing-signature-to-your-e-mail
+[Add labels to Emails]: /HowTos/E-Mails.html#add-labels-to-emails
+[Add the BFP-Racing E-Mail signature]: /HowTos/E-Mails.html#add-the-bfp-racing-signature-to-your-e-mail
 
-[Add users]: /documentation/HowTos/vaultwarden.html#add-users
-[Change what passwords a user can see and edit]: /documentation/HowTos/vaultwarden.html#change-what-passwords-a-user-can-see-and-edit
-[Deactivate / Delete an account]: /documentation/HowTos/vaultwarden.html#deactivate--delete-an-account
+[Add users]: /HowTos/vaultwarden.html#add-users
+[Change what passwords a user can see and edit]: /HowTos/vaultwarden.html#change-what-passwords-a-user-can-see-and-edit
+[Deactivate / Delete an account]: /HowTos/vaultwarden.html#deactivate--delete-an-account
 
-[Add new Mailbox]: /documentation/HowTos/E-Mails.html#add-new-mailbox
-[Add new E-Mail alias]: /documentation/HowTos/E-Mails.html#add-new-e-mail-alias
+[Add new Mailbox]: /HowTos/E-Mails.html#add-new-mailbox
+[Add new E-Mail alias]: /HowTos/E-Mails.html#add-new-e-mail-alias

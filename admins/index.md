@@ -13,4 +13,4 @@ nav_order: 2
 
 ----
 
-[Services in use]: /documentation/admins/services.html
+[Services in use]: /admins/services
