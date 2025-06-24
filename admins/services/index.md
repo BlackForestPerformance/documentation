@@ -7,6 +7,9 @@ parent: Admins
 # Services
 {: .no_toc }
 
+[Uptime]{: .btn }
+[Uptime All]{: .btn }
+
 #### Table of contents
 {: .no_toc }
 
@@ -29,6 +32,13 @@ In the Belwue network, you are not allowed to run mail servers because of securi
 
 The free plan of Mailjet allows sending 6000 emails per month (200 per day). It will limit to 1500 Contacts though. This is why a under `/usr/local/bin` a script `deleteAllMailJetContacts.sh` can be found that will delete all contacts from the Mailjet account. This script will be run by a cronjob every day at 2 am. (`0 2 * * * /usr/local/bin/deleteAllMailJetContacts.sh`)
 
+## Wordpress
+([Wordpress], [Wordpress Admin Panel])
+
+[Wordpress] is used as a content management system (CMS) for our website.\
+**THE CONTAINER IS NOT PERSISTENT!**\
+This means if you rebuild the container, all data will be lost.
+
 ## Vaultwarden
 ([Password manager], [Vaultwarden Admin Panel])
 
@@ -36,9 +46,11 @@ The free plan of Mailjet allows sending 6000 emails per month (200 per day). It 
 
 ## NGINX
 
-[NGINX] is used as a reverse proxy for the Mailcow container. We actually use two NGINX instances. One is inside the Mailcow container and the other one is on the host.
+[NGINX] is used as a reverse proxy. We actually use two NGINX instances. One is inside the Mailcow container and the other one is on the host.
 
 The config of the host NGINX can be found at `/etc/nginx/nginx.conf`. (This links to `/etc/nginx/sites-enabled/`, etc.)
+
+The host NGINX instance will use all the certificates provided by Certbot for each subdomain.
 
 The config of the Mailcow NGINX can be found at #TODO.
 
@@ -55,6 +67,18 @@ We use it to connect to the VM in the university network. Sadly in the universit
 This very page is created using the [Just the Docs] Jekyll theme. It is a simple and easy-to-use theme for documentation.
 It's hosted on GitHub Pages.
 
+## Uptime Kuma
+([Uptime Kuma])
+
+[Uptime]{: .btn }
+[Uptime All]{: .btn }
+
+This is a basic and lightweight uptime monitoring tool. Its currently used to monitor the DNS entries and HTTPS availability of all our services.
+In theory, it can also monitor containers directly, specific ports, and more. But we are currently not using it for that.
+
+It can send notifications to a metric ton of services, like Discord, Email, Signal, Telegram, Webhooks, and much, much more.\
+The notifications are currently only used by one of the past admins on a personal Discord server.
+
 ----
 
 [Mailcow Admin panel]: https://mail.bfp-racing.de/
@@ -65,6 +89,9 @@ It's hosted on GitHub Pages.
 
 [Mailjet]: https://www.mailjet.com/
 [Customer Login]: https://app.mailjet.com/signin
+
+[Wordpress]: https://www.bfp-racing.de/
+[Wordpress Admin Panel]: https://www.bfp-racing.de/wp-admin/
 
 [Password manager]: https://password.bfp-racing.de
 [Vaultwarden Admin Panel]: https://password.bfp-racing.de/admin
@@ -77,4 +104,8 @@ It's hosted on GitHub Pages.
 
 [Documentation Page]: /
 [Just the Docs]: https://just-the-docs.com/
+
+[Uptime Kuma]: https://uptime.bfp-racing.de/dashboard/
+[Uptime]: https://uptime.bfp-racing.de/
+[Uptime All]: https://uptime.bfp-racing.de/status/all
 
