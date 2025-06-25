@@ -43,7 +43,7 @@ parent: How To
 
 {: .info-title }
 > What you need
-> - Someone with owner rights on the Vaultwarden Organisation or access to the "admin@bfp-racing.de" Vaultwarden Account
+> Someone with owner rights on the Vaultwarden Organisation or access to the "admin@bfp-racing.de" Vaultwarden Account
 
 1. **user:** Activate 2FA if not already activated.
     1. Log into Vaultwarden.
@@ -61,7 +61,7 @@ parent: How To
 
 {: .info-title }
 > What you need
-> - Someone with owner rights on the Vaultwarden Organisation or access to the "admin@bfp-racing.de" Vaultwarden Account
+> Someone with owner rights on the Vaultwarden Organisation or access to the "admin@bfp-racing.de" Vaultwarden Account
 
 1. **admin:**
     1. The user with access to the "Management" Collection logs in to [Vaultwarden].
