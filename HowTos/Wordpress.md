@@ -53,6 +53,26 @@ Content blocks display content, the layout blocks are used to structure the page
 
 There rarely is a right or wrong way to do it, just play around with it until you are satisfied with the result.
 
+### Hide blocks outside the editor (and unhide them)
+
+{: .info }
+> This can be useful if you are in the process of redesigning a page and don't want to make it visible just yet.
+
+{: .warning-title }
+> This is almost always a bad idea, but it can be useful very rarely.
+> 
+> Why is it a bad idea?\
+> The hidden elements are still there and will get loaded every time some visits the page. Therefore, it makes the page slower for seemingly no reason.
+> Only use this when you are sure you will remove the blocks very soon.
+
+Select the block you want to hide and unfold the "Advanced" section in the right sidebar.\
+There you can find the "Additional CSS class(es)" field.\
+Add the class `element-hidden` to this field and save the page.
+
+You will still see the block in the editor, but it will be gone on the page.
+
+To make it visible again, just remove the `element-hidden` class from the "Additional CSS class(es)" field and save the page again.
+
 ## Add a "Team \[Semester]" Page
 
 {: .info }

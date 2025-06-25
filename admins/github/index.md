@@ -12,8 +12,8 @@ Any documentation to all IT related stuff. Like this document.
 
 ## [blackforestperformance.github.io] (GitHub Pages)
 
-This is used a placeholder Website for the Domain [bfp-racing.de]. By the time writing this, it is used to display a "work in progress" text on the page.
-This was done, so the URL can be shared in magazines even when unsure if we would have a public page by the time the magazine is printed.
+This *was* used a placeholder Website for the Domain [bfp-racing.de]. It was used to display a "work in progress" text on the page.
+That way, we were able to share the URL on Magazines and flyers, even when unsure if we would have a public page by the time the magazine is printed.
 
 ## [Mail Footer]
 

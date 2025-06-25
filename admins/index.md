@@ -11,6 +11,10 @@ nav_order: 3
 [Services in use]{: .btn }
 </span>
 
+
+[GitHub Repos]{: .btn }
+
 ----
 
 [Services in use]: /admins/services
+[GitHub Repos]: /admins/github

@@ -24,13 +24,18 @@ parent: Service Overview
 ## Mail Configuration
 
 {: .highlight-title }
-> Unfinished
+> TBD
 
 ### Domain : BFP-Racing
 
 At the moment, there only is one
 
 #### Rate Limit
+
+{: .warning-title }
+> TBD
+> 
+> Values might have changed since this was written.
 
 This is set to 190 mails per day. Mailjet has a free tier with up to 6000 mails per month. This is 200 mails per day.
 We set the limit to 190 mails per day to be sure that we don't hit the limit.
@@ -39,7 +44,7 @@ We set the limit to 190 mails per day to be sure that we don't hit the limit.
 
 The domain wide footer is stored at the [Mailfooter Repo].
 
-This will be applied to all mails sent from the domain. No exceptions.q
+This will be applied to all mails sent from the domain. No exceptions.
 
 ### Mailboxes
 
@@ -68,17 +73,27 @@ Following aliases are set up:
 
 ### ARC/DKIM
 
+{: .warning-title }
+> TBD
+
 ### Fail2Ban
 
+{: .warning-title }
+> TBD
+
 ### Password Policy
+
+{: .warning-title }
+> TBD
 
 ### Routing
 
 {: .highlight-title }
-> Unfinished
+> TBD
+> 
 > Important, because I don't know shit about this.
 
-This is the link to [Mailjet], the service we use to send mails through the belwue blockage.
+This is the link to the [Brevo] explanation, the service we use to send mails through the belwue blockage.
 
 
 ----
@@ -89,4 +104,4 @@ This is the link to [Mailjet], the service we use to send mails through the belw
 
 [Mailfooter Repo]: /admins/github/#mail-footer
 
-[Mailjet]: /admins/services/#mailjet
+[Brevo]: /admins/services/#brevo
