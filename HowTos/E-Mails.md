@@ -80,5 +80,5 @@ parent: How To
 You don't have to do anything. This will be added automatically to all E-Mails.
 
 ----
-[Mailcow admin panel]: https://mail.bfp-racing.de
-[Webmail client]: https://mail.bfp-racing.de/SOGo/
+[Mailcow admin panel]: https://mail.bfp-racing.de/admin/
+[Webmail client]: https://mail.bfp-racing.de/
